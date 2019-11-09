@@ -1424,19 +1424,8 @@ input, select, textarea {
 	.check-list li {
 		padding: 0.7em 0 0.7em 45px;
 		font-size: 1.2em;
-		background: url("images/icon-checkmark.png") 0px 1.05em no-repeat;
+		background: url("images/icon-checkmark.png") 10px 1.05em no-repeat;
 	}
-
-		.check-list li:first-child {
-			padding-top: 0 !important;
-			border-top: 0 !important;
-			background-position: 0 0.3em;
-		}
-
-		.check-list li:last-child {
-			padding-bottom: 0 !important;
-			border-bottom: 0 !important;
-		}
 
 	.feature-image {
 		display: block;
@@ -1701,6 +1690,11 @@ input, select, textarea {
 			.check-list li {
 				font-size: 1em;
 				line-height: 2em;
+			}
+
+			.check-list li:hover{
+				background-color: #212f35;
+				padding-left: 55px;
 			}
 
 			.quote-list li {
@@ -1971,6 +1965,10 @@ input, select, textarea {
 
 			.check-list li {
 				font-size: 1em;
+			}
+
+			.check-list li:hover{
+				background-color: #212f35;
 			}
 
 			.button-large {
